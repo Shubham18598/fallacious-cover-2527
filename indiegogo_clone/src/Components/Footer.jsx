@@ -13,9 +13,9 @@ import { BsSpotify } from 'react-icons/bs';
 
 const Footer = () => {
     return (
-        <div style={{ width: "100%", backgroundColor: "#F5F5F5" }}>
-            <div style={{ border: "1px solid black", width: "80%", display: "flex", margin: "auto" }}>
-                <div style={{ width: "65%", paddingRight: "30px", paddingLeft: "30px", justifyContent: "space-between", display: "flex", border: "1px solid red" }}>
+        <div style={{ paddingTop:"10px",width: "100%", backgroundColor: "#F5F5F5" }}>
+            <div style={{  width: "80%", display: "flex", margin: "auto" }}>
+                <div style={{ width: "65%", paddingRight: "30px", paddingLeft: "30px", justifyContent: "space-between", display: "flex" }}>
                     <div>
                         <p className='foot-color'> EXPLORE</p>
                         <ul ><Link className='foot1'>What we do</Link></ul>

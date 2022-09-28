@@ -1,0 +1,361 @@
+/* Slideshow css */
+
+.centerbox {
+	/* border: 1px solid red; */
+	display: flex;
+	margin: auto;
+}
+
+.maincontainer {
+	border: 1px solid rgb(192, 192, 192);
+	height: 550px;
+	width: 100%;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.maincontainer:hover {
+	transform: scale(1.01);
+	box-shadow: 5px 5px 5px grey;
+}
+.imghoverzoom {
+	/* border: 1px solid blue; */
+	margin: auto;
+	width: 100%;
+	height: 35%;
+}
+.imagewidth {
+	width: 100%;
+	height: 100%;
+}
+.titlehover {
+	color: grey;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+.titlehover:hover {
+	color: red;
+}
+.description {
+	margin-top: 15px;
+	text-align: left;
+	color: gray;
+}
+.subheading {
+	margin-top: 15px;
+
+	text-align: left;
+	color: black;
+}
+.containershares2 {
+	width: 95%;
+	height: 150px;
+	/* border: 1px solid grey;  */
+	margin: auto;
+}
+.shares > p {
+	margin: auto;
+	margin-top: 15px;
+}
+.shares > .progresssymbol {
+	border: 0px solid;
+	cursor: pointer;
+	height: 10px;
+	position: relative;
+	width: 97%;
+	background-color: rgb(125, 223, 101);
+	border-radius: 50px;
+}
+.changecontent {
+	border: none;
+	outline: none;
+	font-size: 30px;
+	text-align: center;
+	cursor: pointer;
+	width: 40px;
+	margin: 6px;
+	height: 40px;
+	margin-top: 25px;
+	border-radius: 50%;
+}
+.changecontent:hover {
+	background-color: black;
+	color: white;
+}
+
+/* collectionPage ----css */
+
+.collectionbox {
+	cursor: pointer;
+	/* border: 1px solid grey; */
+	width: 44%;
+	height: 450px;
+	/* margin: 20px; */
+	margin-top: 30px;
+	margin-left: 4%;
+	float: left;
+}
+.collectionbox > img {
+	height: 90%;
+	width: 100%;
+}
+.imagetitle {
+	margin-top: -250px;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}
+.collectiontitle {
+	text-align: left;
+	margin-top: 210px;
+	clear: both;
+	margin-left: 10px;
+	color: rgb(46, 42, 42);
+}
+.collectionlinks {
+	text-align: right;
+	margin-left: 260px;
+	margin-top: -25px;
+}
+.collectionlinks > p {
+	color: rgb(58, 88, 6);
+}
+.collectionlinks > p:hover {
+	color: red;
+}
+
+/* crowdfunding page ---css */
+.crowdfunding {
+	width: 90%;
+	height: 320px;
+	/* border: 1px solid red; */
+	margin-left: 4.5%;
+	margin-top: 10%;
+	clear: both;
+}
+
+.crowdfunding > img {
+	cursor: pointer;
+	width: 100%;
+
+	height: 100%;
+}
+
+.crowdtitle {
+	margin-top: -300px;
+	margin-left: 400px;
+	font-family: ff-more-web-pro, serif;
+}
+.crowddescription {
+	margin-top: 10px;
+	text-align: center;
+	color: grey;
+	line-height: 30px;
+	font-family: benton-sans, Helvetica, Sans-serif;
+}
+.lerancrowd {
+	text-align: center;
+}
+.lerancrowd:hover {
+	color: rgb(221, 13, 204);
+	cursor: pointer;
+	clear: both;
+}
+
+/* middlehome page css */
+.categories {
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	clear: both;
+	/* border: 1px solid black; */
+}
+.categories > h1 {
+	font-family: ff-more-web-pro, serif;
+}
+.categories > h3 {
+	margin-top: 17px;
+	font-family: benton-sans, Helvetica, Sans-serif;
+	color: rgb(61, 58, 58);
+}
+.interestbtn {
+	width: 350px;
+	height: 50px;
+	margin: auto;
+	margin-top: 40px;
+	/* border: 0.5px solid grey; */
+}
+.interestbtn > button {
+	display: block;
+	margin: auto;
+	padding: 15px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 15px;
+	outline: none;
+	border: 1px solid grey;
+}
+.interestbtn > button:hover {
+	background-color: rgb(206, 201, 201);
+}
+.topcategories {
+	clear: both;
+	font-family: benton-sans, Helvetica, Sans-serif;
+
+	margin-top: 10px;
+	text-align: center;
+}
+.topsixcateg {
+	width: 97%;
+	height: 250px;
+	margin-top: 15px;
+	/* border: 1px solid grey; */
+	margin-left: 2.5%;
+}
+.topsixcateg > div {
+	/* border: 1px solid grey; */
+	width: 175px;
+	height: 200px;
+	float: left;
+	margin: 20px;
+	cursor: pointer;
+}
+.topsixcateg > div:hover {
+	box-shadow: 1px 1px 1px 1px grey;
+}
+
+.topsixcateg > div > img {
+	width: 100%;
+	height: 80%;
+}
+.topsixcateg > div > p {
+	margin-top: 5px;
+	font-family: benton-sans, Helvetica, Sans-serif;
+
+	text-align: center;
+}
+
+/* Review part css */
+.reviewheading {
+	text-align: center;
+	font-family: ff-more-web-pro, serif;
+}
+.reviewbox {
+	width: 95%;
+	margin-left: 3%;
+	height: 500px;
+	margin-top: 20px;
+	/* border: 1px solid grey; */
+}
+
+.reviewbox > div:nth-child(odd) {
+	/* border: 1px solid black; */
+	float: left;
+	width: 32%;
+	height: 50%;
+	margin: 10px;
+}
+.reviewbox > img {
+	width: 100%;
+	height: 100%;
+}
+/* //benton-sans, Helvetica,  */
+.reviewbox > div:nth-child(even) {
+	/* border: 1px solid black; */
+	float: left;
+	width: 30%;
+	height: 33%;
+	margin: 10px;
+}
+.reviewimagedimentions {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.reviewimageboxcontent {
+	/* border: 1px solid grey; */
+	width: 100%;
+	margin: auto;
+	font-family: benton-sans, Helvetica;
+	height: 200px;
+	margin-top: 20px;
+}
+.reviewimageboxcontent2 {
+	/* border: 1px solid grey; */
+	width: 400px;
+	margin: auto;
+	height: 175px;
+	margin-top: 20px;
+}
+.readmoreindicator {
+	color: rgb(66, 65, 65);
+}
+.readmoreindicator:hover {
+	color: orangered;
+	cursor: pointer;
+}
+
+/* above footerpart css */
+.curiousthings,
+.curiouscontent {
+	text-align: center;
+	line-height: 30px;
+	color: rgb(63, 60, 60);
+}
+.curiouscontent2 {
+	font-family: benton-sans, Helvetica;
+	color: grey;
+	line-height: 30px;
+}
+
+/* roboimage---css */
+.footeraboveimage {
+	/* border: 1px solid grey; */
+	width: 93%;
+	height: 300px;
+	margin-left: 3%;
+}
+.footeraboveimage > div {
+	float: left;
+}
+.footeraboveimage > div > img {
+	margin-left: 7px;
+	margin-top: 50px;
+}
+.footeraboveimage > div > :nth-child(2) {
+	margin: auto;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+/* buttons css */
+
+.buttonsforlearn {
+	height: 60px;
+	width: 30%;
+	/* border: 1px solid grey; */
+	margin: auto;
+	clear: both;
+	margin-left: 400px;
+	margin-top: -50px;
+	display: flex;
+}
+.footerbtns1 {
+	width: 150px;
+	height: 40px;
+	margin-top: 19px;
+	color: white;
+	background-color: rgb(229, 16, 117);
+	border-radius: 5px;
+	border: 1px solid rgb(229, 16, 117);
+	cursor: pointer;
+}
+.footerbtns2 {
+	width: 150px;
+	height: 40px;
+	color: rgb(229, 16, 117);
+	margin-top: -10px;
+	cursor: pointer;
+
+	background-color: white;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
