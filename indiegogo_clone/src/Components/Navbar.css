@@ -1,0 +1,9 @@
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+}
+.nav3{
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+}
