@@ -1,0 +1,110 @@
+/* crowdfunding page ---css */
+.crowdfunding {
+	width: 90%;
+	height: 320px;
+	/* border: 1px solid red; */
+	margin-left: 4.5%;
+	margin-top: 10%;
+	clear: both;
+}
+
+.crowdfunding > img {
+	cursor: pointer;
+	width: 100%;
+
+	height: 100%;
+}
+
+.crowdtitle {
+	margin-top: -300px;
+	margin-left: 400px;
+	font-family: ff-more-web-pro, serif;
+}
+.crowddescription {
+	margin-top: 10px;
+	text-align: center;
+	color: grey;
+	line-height: 30px;
+	font-family: benton-sans, Helvetica, Sans-serif;
+}
+.lerancrowd {
+	text-align: center;
+}
+.lerancrowd:hover {
+	color: rgb(221, 13, 204);
+	cursor: pointer;
+	clear: both;
+}
+
+/* middlehome page css */
+.categories {
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	clear: both;
+	/* border: 1px solid black; */
+}
+.categories > h1 {
+	font-family: ff-more-web-pro, serif;
+}
+.categories > h3 {
+	margin-top: 17px;
+	font-family: benton-sans, Helvetica, Sans-serif;
+	color: rgb(61, 58, 58);
+}
+.interestbtn {
+	width: 350px;
+	height: 50px;
+	margin: auto;
+	margin-top: 40px;
+	/* border: 0.5px solid grey; */
+}
+.interestbtn > button {
+	display: block;
+	margin: auto;
+	padding: 15px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 15px;
+	outline: none;
+	border: 1px solid gray;
+}
+.interestbtn > button:hover {
+	background-color: rgb(206, 201, 201);
+}
+.topcategories {
+	clear: both;
+	font-family: benton-sans, Helvetica, Sans-serif;
+
+	margin-top: 10px;
+	text-align: center;
+}
+.topsixcateg {
+	width: 97%;
+	height: 250px;
+	margin-top: 15px;
+	/* border: 1px solid grey; */
+	margin-left: 2.5%;
+}
+.topsixcateg > div {
+	/* border: 1px solid grey; */
+	width: 175px;
+	height: 200px;
+	float: left;
+	margin: 20px;
+	cursor: pointer;
+}
+.topsixcateg > div:hover {
+	box-shadow: 1px 1px 1px 1px grey;
+}
+
+.topsixcateg > div > img {
+	width: 100%;
+	height: 80%;
+}
+.topsixcateg > div > p {
+	margin-top: 5px;
+	font-family: benton-sans, Helvetica, Sans-serif;
+
+	text-align: center;
+}
