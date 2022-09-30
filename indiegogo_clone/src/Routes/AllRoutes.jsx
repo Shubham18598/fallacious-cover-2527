@@ -3,6 +3,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import EachCard from '../Components/EachCard';
 import PrivateRoute from '../Components/PrivateRoute';
 import Homepage from '../Pages/Homepage';
 import Login from '../Pages/Login';
@@ -10,6 +11,7 @@ import OurTop10Finds from '../Pages/OurTop10Finds';
 import Signup from '../Pages/Signup';
 import StartACampaign from '../Pages/StartACampaign';
 import TeamFavorites from '../Pages/TeamFavorites';
+import TechAndInovation from '../Pages/TechAndInovation';
 import WhatWeDo from '../Pages/WhatWeDo';
 const AllRoutes = () => {
   return (
@@ -22,10 +24,10 @@ const AllRoutes = () => {
         <Route path='/whatwedo' element={<PrivateRoute><WhatWeDo/></PrivateRoute>}></Route>
         <Route path='/signup' element={<Signup/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
-
+        <Route path='/tech&inovation' element={<TechAndInovation/>}></Route>
 
         <Route path='/campagin'></Route>
-        <Route path='/campagin/:id'></Route>
+        <Route path='/campaign/:id' element={<EachCard/>}></Route>
 
       </Routes>
     </div>
