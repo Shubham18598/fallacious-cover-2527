@@ -1,7 +1,7 @@
 import Axios from "axios";
 
 const axios = Axios.create({
-	baseURL: "https://onp995.sse.codesandbox.io",
+	baseURL: "https://vd6zqv.sse.codesandbox.io/",
 	headers: {
 		"Content-type": "application/json",
 	},

@@ -19,14 +19,14 @@ export const ShowArticles = ({ articles }) => {
                         color: "green",
                         marginLeft: "10px",
                         marginTop: "15px",
-                        fontFamily: "'Tajawal', sans-serif;",
+                        fontFamily: "Tajawal, sans-serif",
                       }}
                     >
-                      <h6>FUNDING</h6>
+                      <p>FUNDING</p>
                     </h3>
                     {/* <span style={{display:"flex",fontSize:"20px"}}>&#9825;</span> */}
                     <p className={styles.subheading}>{item.title}</p>
-                    <h6 className={styles.description}>{item.descrition}</h6>
+                    <p className={styles.description}>{item.descrition}</p>
                     <div className={styles.containershares2}>
                       <p className={styles.titlehover}>{item.category}</p>
                       <div className={styles.shares}>
