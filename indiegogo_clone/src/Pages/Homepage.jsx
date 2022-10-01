@@ -11,10 +11,7 @@ const Homepage = () => {
 
       <ImageSlider />
 
-      <div style={{ border: "1px solid black", height: "auto", width: "80%", margin: "auto", marginTop: "10px" }}>
-        {/* <div>
-      <CrowdFunding/>
-      </div> */}
+      <div style={{ height: "auto", width: "80%", margin: "auto", marginTop: "10px" }}>
         <div style={{ width: "100%", display: "grid", gridTemplateColumns: "repeat(2,1fr)" }}>
           <div style={{  height: "auto",paddingRight:"10px", paddingBottom:"30px" }}>
             <img width="100%" height="370px"
@@ -116,7 +113,9 @@ const Homepage = () => {
         <SlideShow/>
       </div>
 
-
+      <div>
+      <CrowdFunding/>
+      </div>
 
 
 

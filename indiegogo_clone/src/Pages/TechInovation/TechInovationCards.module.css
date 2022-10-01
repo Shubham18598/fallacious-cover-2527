@@ -1,0 +1,117 @@
+/* Slideshow css */
+
+.databox {
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 330px;
+  /* border: 1px solid black; */
+}
+.centerbox2 {
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+.maincontainer2 {
+  border: 1px solid rgb(206, 206, 206);
+  height: 600px;
+  width: 350px;
+  margin: 10px;
+  cursor: pointer;
+}
+.maincontainer2:hover {
+  transform: scale(1.01);
+  box-shadow: 5px 5px 5px grey;
+  transition: 0.3s ease;
+}
+.imghoverzoom2 {
+  /* border: 1px solid blue; */
+  margin: auto;
+  width: 100%;
+  height: 50%;
+}
+.imagewidth2 {
+  width: 100%;
+  height: 70%;
+}
+.titlehover2 {
+  margin-top: 15px;
+  color: grey;
+}
+.titlehover2:hover {
+  color: red;
+}
+.subheading2 {
+  text-align: left;
+  margin-top: 30px;
+  color: black;
+}
+.description2 {
+  margin-top: 15px;
+  text-align: left;
+  color: gray;
+}
+.containershares {
+  width: 95%;
+  height: 150px;
+  /* border: 1px solid grey; */
+  margin: auto;
+}
+.shares2 {
+  margin-top: 15px;
+  margin: auto;
+}
+.raisedamount {
+  margin-top: 10px;
+}
+.shares2 > .progresssymbol2 {
+  border: 0px solid;
+  cursor: pointer;
+  margin-top: 10px;
+  height: 10px;
+  position: relative;
+  width: 97%;
+  background-color: rgb(125, 223, 101);
+  border-radius: 50px;
+}
+.changecontent2 {
+  border: none;
+  outline: none;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  width: 40px;
+  margin: 6px;
+  height: 40px;
+  border-radius: 50%;
+}
+.changecontent2:hover {
+  background-color: black;
+  color: white;
+}
+
+/* explore inputbox ----css */
+.inputboxexplore {
+  margin-top: 30px;
+  width: 69%;
+  height: 60px;
+  /* border: 1px solid grey; */
+  margin-left: 340px;
+}
+.inputboxexplore > input {
+  width: 65%;
+  height: 35px;
+  border: 1px solid grey;
+  outline: none;
+}
+.inputboxexplore > label {
+  margin-left: 30px;
+}
+.inputboxexplore > button {
+  width: 100px;
+  margin-left: 20px;
+  height: 30px;
+  font-size: 18px;
+  outline: none;
+  background-color: white;
+  border: 0.5px solid rgb(85, 85, 85);
+}
