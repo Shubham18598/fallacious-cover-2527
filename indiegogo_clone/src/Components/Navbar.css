@@ -1,6 +1,8 @@
 .navbar1{
     display: flex;
     justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .nav3{
     padding-top: 10px;

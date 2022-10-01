@@ -22,12 +22,12 @@ const Navbar = () => {
 
         <div className='navbar1'>
             <Link to="./"><img width="100px" src="http://jazznightsfilm.com/wp-content/uploads/2021/03/indiegogo-inc-logo-vector.png" alt="" /></Link>
-            <div className="dropdown " style={{ paddingTop: "8px" }} >
-                <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown button
+            <div className="dropdown " style={{ paddingTop: "8px"}} >
+                <button  className="btn btn-secondary dropdown-toggle bg-white text-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Explore
                 </button>
                 <ul className="dropdown-menu">
-                    <li><Link className="dropdown-item" href="#">Action</Link></li>
+                    <li><Link className="dropdown-item" to="tech&inovation">Tech & Inovation</Link></li>
                     <li><Link className="dropdown-item" href="#">Another action</Link></li>
                     <li><Link className="dropdown-item" href="#">Something else here</Link></li>
                 </ul>
